@@ -21,19 +21,11 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h1>
-          React Easy Boilerplate
+          Loot Check
         </h1>,
-        <button
-          onClick={[Function]}
-          type="button"
-        >
-          ECMA6
-        </button>,
-        <p>
-          Teste Sass
-        </p>,
+        <hr />,
+        <Connect(Wallet) />,
       ],
-      "id": "boiler",
     },
     "ref": null,
     "rendered": Array [
@@ -42,35 +34,29 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "React Easy Boilerplate",
+          "children": "Loot Check",
         },
         "ref": null,
-        "rendered": "React Easy Boilerplate",
+        "rendered": "Loot Check",
         "type": "h1",
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
-        "props": Object {
-          "children": "ECMA6",
-          "onClick": [Function],
-          "type": "button",
-        },
+        "props": Object {},
         "ref": null,
-        "rendered": "ECMA6",
-        "type": "button",
+        "rendered": null,
+        "type": "hr",
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Teste Sass",
-        },
+        "nodeType": "class",
+        "props": Object {},
         "ref": null,
-        "rendered": "Teste Sass",
-        "type": "p",
+        "rendered": null,
+        "type": [Function],
       },
     ],
     "type": "div",
@@ -83,19 +69,11 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h1>
-            React Easy Boilerplate
+            Loot Check
           </h1>,
-          <button
-            onClick={[Function]}
-            type="button"
-          >
-            ECMA6
-          </button>,
-          <p>
-            Teste Sass
-          </p>,
+          <hr />,
+          <Connect(Wallet) />,
         ],
-        "id": "boiler",
       },
       "ref": null,
       "rendered": Array [
@@ -104,35 +82,29 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "React Easy Boilerplate",
+            "children": "Loot Check",
           },
           "ref": null,
-          "rendered": "React Easy Boilerplate",
+          "rendered": "Loot Check",
           "type": "h1",
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
-          "props": Object {
-            "children": "ECMA6",
-            "onClick": [Function],
-            "type": "button",
-          },
+          "props": Object {},
           "ref": null,
-          "rendered": "ECMA6",
-          "type": "button",
+          "rendered": null,
+          "type": "hr",
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Teste Sass",
-          },
+          "nodeType": "class",
+          "props": Object {},
           "ref": null,
-          "rendered": "Teste Sass",
-          "type": "p",
+          "rendered": null,
+          "type": [Function],
         },
       ],
       "type": "div",

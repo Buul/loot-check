@@ -3,8 +3,13 @@ import { shallow } from 'enzyme';
 import App from '../App';
 
 describe('App', () => {
-    it('renders correctly', () => {
-        const wrapper = shallow(<App title="test" />);
-        expect(wrapper).toMatchSnapshot();
-    });
+  const app = shallow(<App title="test" />);
+
+  it('renders correctly', () => {
+    expect(app).toMatchSnapshot();
+  });
+
+  it('contains a connected Wallet component', () => {
+    expect(app.find('Connect(Wallet)').exists()).toBe(true);
+  });
 });

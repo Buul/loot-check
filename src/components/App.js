@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
-import '../styles/app.scss';
+import Wallet from './Wallet';
 
 class App extends Component {
-  handleChange = param => {
-    console.log(param);
-  };
-
   render() {
     return (
-      <div id="boiler">
-        <h1>React Easy Boilerplate</h1>
-        <button type="button" onClick={() => this.handleChange('TEST ECMA6')}>
-          ECMA6
-        </button>
-        <p>Teste Sass</p>
+      <div>
+        <h1>Loot Check</h1>
+        <hr />
+        <Wallet />
       </div>
     );
   }
